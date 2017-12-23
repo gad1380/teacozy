@@ -45,15 +45,9 @@ html {
   position: relative;
   top: 50px;
   border-bottom: 1px solid seashell;
-
 }
 
-.main {
-  display: flex;
-  border-bottom: 1px solid seashell;
-}
-
-.image-main {
+.main-image {
   display: flex;
   background-image: url('../images/img-mission-background.jpg');
   flex-direction: column;
@@ -62,7 +56,6 @@ html {
   height: 700px;
   justify-content: center;
 }
-
 .text-overlay {
   background-color: black;
   flex-direction: column;
@@ -71,19 +64,13 @@ html {
   height: 100px;
 }
 
-h2, h4 {
-  margin: 10px;
-}
-
-
 .main-tiles {
   display: flex;
   width: 1000px;
-  height: 1000px;
+  height: auto;
   border-bottom: 1px solid seashell;
   flex-direction: column;
 }
-
 .tiles-header {
   margin-top: 50px;
   display: flex;
@@ -93,12 +80,11 @@ h2, h4 {
   justify-content: center;
   flex-direction: column;
 }
-
 .tile-container {
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
-  height: auto;
+  height: 600px;
   justify-content: center;
 
 }
@@ -117,7 +103,28 @@ h2, h4 {
   margin-bottom: 10px;
 }
 
+.main-locations {
+  display: flex;
+  background-image: url('../images/img-locations-background.jpg');
+  border: 1px solid seashell;
+  width: 1200px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
 
+}
+.location {
+  display: flex;
+  width: 300px;
+  height: 270px;
+  border: 1px solid seashell;
+  flex-direction: column;
+  background-color: black;
+  margin: 20px;
+}
+.location span {
+  padding-bottom: 15px;
+}
 
 h2, h4 {
   margin: 10px;
