@@ -92,7 +92,6 @@ h2, h4 {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  border-bottom: 1px solid seashell;
 }
 
 .tile-container {
@@ -100,16 +99,16 @@ h2, h4 {
   flex-wrap: wrap;
   width: 1000px;
   height: auto;
-  justify-content: space-evenly;
-  border-bottom: 1px solid seashell;
+  justify-content: center;
 
 }
 .tile {
   display: flex;
   height: 250px;
   width: 300px;
-  border-bottom: 1px solid seashell;
+  margin: 10px;
   flex-direction: column;
+
 }
 .tile-image {
   display:flex;
